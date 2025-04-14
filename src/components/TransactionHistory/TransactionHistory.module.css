@@ -1,0 +1,40 @@
+.transaction__history {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  box-shadow: 0px 0px 5px 1px rgb(195, 195, 195);
+  border-radius: 5px;
+}
+
+.header {
+  background-color: rgb(0, 161, 215);
+  color: #fff;
+  text-transform: uppercase;
+  border-top-right-radius: 5px;
+  border-top-left-radius: 5px;
+}
+
+.row__item,
+.row__title {
+  flex-grow: 1;
+  flex-basis: calc(100% / 3);
+}
+
+.row__item {
+  color: rgb(87, 87, 87);
+}
+
+.body {
+  border-bottom-right-radius: 5px;
+  border-bottom-left-radius: 5px;
+}
+.row {
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+  padding: 1em 0;
+}
+
+.row:nth-child(even) {
+  background-color: rgb(236, 244, 250);
+}
